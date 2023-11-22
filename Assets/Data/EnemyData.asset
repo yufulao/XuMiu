@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c3abb2ff1b0ce44a8457a7acae7ff3, type: 3}
+  m_Name: EnemyData
+  m_EditorClassIdentifier: 
+  data:
+  - enemyName: test
+    damage: 982
+    defend: 0
+    maxHp: 90
+    damageRate: 1
+    hurtRate: 1
+    speed: 50
+    battleObjPrefab: {fileID: 124616432048042660, guid: 805ef5c07ce95a5479cf43485bf3d769, type: 3}
+    skills:
+    - skillName: "no1 \u7838\u6655"
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: 
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+  - enemyName: A
+    damage: 982
+    defend: 0
+    maxHp: 90000
+    damageRate: 1
+    hurtRate: 1
+    speed: 50
+    battleObjPrefab: {fileID: 124616432048042660, guid: 805ef5c07ce95a5479cf43485bf3d769, type: 3}
+    skills:
+    - skillName: "no1 \u7838\u6655"
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: 
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0

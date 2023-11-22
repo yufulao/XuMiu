@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06f4a840c025ff142af2c6b30b22f123, type: 3}
+  m_Name: BranchData
+  m_EditorClassIdentifier: 
+  data:
+  - branchName: "\u5267\u60C5\u652F\u7EBF"
+    stageData: {fileID: 11400000, guid: d839e1f01ed0b4e4781d0b77d9a0f36c, type: 2}
+  - branchName: "\u6218\u6597\u652F\u7EBF"
+    stageData: {fileID: 11400000, guid: 74ceb47cce4498449b7232722d0e4368, type: 2}

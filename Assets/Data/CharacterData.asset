@@ -1,0 +1,407 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69caa83d99757a047bb973e95be55644, type: 3}
+  m_Name: CharacterData
+  m_EditorClassIdentifier: 
+  data:
+  - characterName: "\u7EF4\u591A\u5229\u4E9A"
+    unLocked: 1
+    inTeam: 1
+    damage: 2610
+    defend: 10
+    maxHp: 4200
+    damageRate: 1
+    hurtRate: 0.8
+    originalHatred: 100
+    originalBp: 0
+    speed: 60
+    teamSprite: {fileID: 21300000, guid: cb5bd00a371c3a240a4100596f06ccad, type: 3}
+    battlePortrait: {fileID: 21300000, guid: f18181334ed3d8743b6b17e230b85f4e, type: 3}
+    battlePortraitName: {fileID: 21300000, guid: 84b15a89ec36c2b479cc6ee4ba598c1d, type: 3}
+    battleObjPrefab: {fileID: 5332722840127819992, guid: 485da1b682661d845b37c97f2215a3fb, type: 3}
+    skills:
+    - skillName: "no1 \u661F\u5149"
+      isUnlock: 1
+      needSelect: 1
+      isBattleStartCommand: 0
+      skillDescription: "\u5BF9\u5355\u4F53\u89D2\u8272\u9020\u6210\u653B\u51FB\u529B50%\u7684\u4F24\u5BB3\uFF0C\u4E3A\u654C\u65B9\u8D4B\u4E88\u201C\u661F\u201Dbuff\uFF08\u6301\u7EED\u4E24\u56DE\u5408\uFF09\u3002
+        \u201C\u661F\u201D\uFF1A\u6301\u6709\u8BE5buff\u7684\u654C\u65B9\u9632\u5FA1\u529B\u4E0B\u964D20%"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 1
+    - skillName: "no2 \u5931\u5374\u7684\u6FC0\u60C5"
+      isUnlock: 1
+      needSelect: 1
+      isBattleStartCommand: 0
+      skillDescription: "\u4E3A\u6211\u65B9\u5355\u4F53\u8D4B\u4E88\u201C\u6FC0\u60C5\u201Dbuff\uFF0C\u8BE5buff\u6301\u7EED\u4E09\u56DE\u5408
+        \u201C\u6FC0\u60C5\u201D\uFF1A\u6301\u6709\u8BE5buff\u7684\u89D2\u8272\u6BCF\u4E3B\u52A8\u6D88\u8017\u7684\u4E00\u70B9bp\u90FD\u80FD\u4E3A\u5176\u8D4B\u4E88\u4E00\u5C42\u653B\u51FB\u529B\u63D0\u534720%\uFF08\u6301\u7EED\u4E00\u56DE\u5408\uFF09\u3002"
+      selectType: 2
+      cameraLookAt: 1
+      selectCount: 1
+    - skillName: "no3 \u8352\u829C\u661F\u539F"
+      isUnlock: 1
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: "\u5BF9\u654C\u65B9\u5168\u4F53\u89D2\u8272\u9020\u621070%\u653B\u51FB\u529B\u7684\u4F24\u5BB3\uFF1B\u5BF9\u6301\u6709\u201C\u661F\u201Dbuff\u7684\u654C\u4EBA\u6539\u4E3A\u9020\u6210250%\u653B\u51FB\u529B\u7684\u4F24\u5BB3\u3002\u5BF9\u5177\u6709\u201C\u5927\u578B\u654C\u4EBA\u201D\u5C5E\u6027\u7684\u76EE\u6807\uFF0C\u672C\u6B21\u4F24\u5BB3\u7684\u4F24\u5BB3\u7CFB\u6570\u4F1A\u589E\u52A00.4\u3002 "
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no4 \u9893\u5E9F\u7684\u667A\u6167"
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: "\u4E3A\u654C\u65B9\u5168\u4F53\u9644\u52A0\u653B\u51FB\u529B\u4E0B\u964D20%\u7684\u8D1F\u9762buff\uFF0C\u6301\u7EED\u4E09\u56DE\u5408\u3002
+        \u4E3A\u654C\u65B9\u5168\u4F53\u9644\u52A0\u53D7\u4F24\u52A0\u91CD20%\u7684\u8D1F\u9762buff\uFF0C\u6301\u7EED\u4E09\u56DE\u5408\u3002"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no5 \u865A\u8C2C"
+      isUnlock: 0
+      needSelect: 1
+      isBattleStartCommand: 0
+      skillDescription: "\u6D88\u9664\u76EE\u6807\u8EAB\u4E0A\u6240\u6709\u3010\u53EF\u9A71\u6563\u3011\u7684\u8D1F\u9762Buff\uFF0C\u5BF9\u8C61\u8EAB\u4E0A\u6BCF\u5C42\u88AB\u6D88\u9664\u7684debuff\u8D4B\u4E88\u4F1A\u8D4B\u4E88\u5BF9\u8C61\u4E00\u5C42\u201C\u865A\u8C2C\u201D\uFF0C\u6301\u7EED\u4E94\u56DE\u5408"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 1
+    - skillName: "no6 \u5FAA\u6B64\u82E6\u65C5"
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: "\u4E3A\u81EA\u8EAB\u9644\u52A0\u201C\u82E6\u65C5\u201D\u4E0E\u201C\u5FCD\u8010\u201D\u72B6\u6001\u3002\u6301\u7EED\u4E94\u56DE\u5408\u3002"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    uniqueSkill:
+      skillName: Ad Astra
+      isUnlock: 1
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: "\u5BF9\u654C\u65B9\u5168\u4F53\u89D2\u8272\u9020\u6210190%\u653B\u51FB\u529B\u7684\u4F24\u5BB3\uFF0C\u654C\u65B9\u89D2\u8272\u6BCF\u6301\u6709\u4E00\u4E2A\u8D1F\u9762buff\uFF0C\u989D\u5916\u591A\u9020\u6210\u4E00\u6B2170%\u653B\u51FB\u529B\u7684\u4F24\u5BB3\u3002\u5BF9\u6301\u6709\u6B63\u9762buff\u7684\u654C\u4EBA\u4F24\u5BB3\u51CF\u534A\u3002\u5BF9\u654C\u65B9\u5168\u4F53\u8D4B\u4E88\u201C\u661F\u201DBuff\uFF08\u6301\u7EED\u4E24\u56DE\u5408\uFF09"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+  - characterName: "\u7EF4\u514B\u591A"
+    unLocked: 1
+    inTeam: 1
+    damage: 1450
+    defend: 50
+    maxHp: 7200
+    damageRate: 1.2
+    hurtRate: 0.9
+    originalHatred: 100
+    originalBp: 0
+    speed: 72
+    teamSprite: {fileID: 21300000, guid: 6bfda048ee312114480fb48614e1a3f2, type: 3}
+    battlePortrait: {fileID: 21300000, guid: 2270fc87385274b4aa1608e6007dac58, type: 3}
+    battlePortraitName: {fileID: 21300000, guid: 3786139ef46fc484e8a476aab8061e6d, type: 3}
+    battleObjPrefab: {fileID: 5332722840127819992, guid: 485da1b682661d845b37c97f2215a3fb, type: 3}
+    skills:
+    - skillName: "no1 \u53CD\u51FB\u67B6\u52BF"
+      isUnlock: 1
+      needSelect: 0
+      isBattleStartCommand: 1
+      skillDescription: "\u5148\u5236\uFF1B\u56DE\u590D1\u70B9BP\uFF0C\u5E76\u4E3A\u81EA\u8EAB\u8D4B\u4E88\u201C\u53CD\u51FB\u67B6\u52BF\u201D\u72B6\u6001\uFF0C\u6301\u7EED\u4E00\u56DE\u5408
+        \u53CD\u51FB\u67B6\u52BF\uFF1A\u6536\u5230\u4F24\u5BB3\u65F6\u5BF9\u4F24\u5BB3\u6765\u6E90\u9020\u6210\u76F8\u5F53\u4E8E70%\u653B\u51FB\u529B\u7684\u4F24\u5BB3"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no2 \u63A9\u62A4"
+      isUnlock: 1
+      needSelect: 1
+      isBattleStartCommand: 0
+      skillDescription: "\u4E3A\u9664\u81EA\u8EAB\u5916\u5355\u4F53\u89D2\u8272\u8D4B\u4E88\u201C\u88AB\u63A9\u62A4\u201Dbuff\uFF0C\u6301\u7EED\u4E00\u56DE\u5408\u3002
+        \u201C\u88AB\u63A9\u62A4\u201D\uFF1A\u6301\u6709\u8BE5buff\u7684\u89D2\u8272\u53D7\u5230\u7684\u4F24\u5BB3\u5C06\u8F6C\u79FB\u7ED9\u7EF4\u514B\u591A\u3002 "
+      selectType: 3
+      cameraLookAt: 1
+      selectCount: 0
+    - skillName: "no3\u707C\u70E7\u5370\u8BB0"
+      isUnlock: 1
+      needSelect: 1
+      isBattleStartCommand: 0
+      skillDescription: "\u5BF9\u5355\u4F53\u89D2\u8272\u9020\u6210\u653B\u51FB\u529B150%\u7684\u4F24\u5BB3
+        \u5E76\u63D0\u9AD8\u81EA\u8EAB\u7684\u4EC7\u6068\u503C"
+      selectType: 1
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no4\u4E0D\u6B7B\u82B1"
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: "\u4E3A\u81EA\u8EAB\u8D4B\u4E88\u201C\u589E\u751F\u201D\u4E0E\u201C\u8FD4\u751F\u201Dbuff
+        \u201C\u589E\u751F\u201D\uFF1A\u6BCF\u56DE\u5408\u6062\u590D30%\u6700\u5927\u751F\u547D\u503C\u3002\uFF08\u6301\u7EED\u4E09\u56DE\u5408\uFF09
+        \u201C\u8FD4\u751F\u201D\uFF1A\u88AB\u51FB\u5012\u4E0D\u81F4\u6B7B\uFF0C\u4FDD\u7559\u4E00\u70B9\u4F53\u529B\uFF08\u6301\u7EED\u4E94\u56DE\u5408\uFF09\uFF08\u4E00\u6B21\uFF09"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no5\u7EDD\u5883\u7684\u706B\u7130"
+      isUnlock: 0
+      needSelect: 1
+      isBattleStartCommand: 0
+      skillDescription: "\u7EF4\u514B\u591A\u6839\u636E\u5269\u4F59\u4F53\u529B\u7684\u6BD4\u4F8B\u5BF9\u654C\u65B9\u5355\u4F53\u9020\u6210\u4E00\u5B9A\u500D\u7387\u7684\u4F24\u5BB3\u3002\u4F53\u529B\u6BD4\u4F8B\u8D8A\u4F4E\uFF0C\u4F24\u5BB3\u500D\u7387\u8D8A\u9AD8\uFF0850%-300%\uFF09"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no6\u7EFD\u653E"
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: "\u56DE\u590D\u6211\u65B9\u5168\u4F53\u89D2\u8272\u76F8\u5F53\u4E8E\u81EA\u8EAB\u6700\u5927HP70%\u7684HP\uFF0C\u5E76
+        \u8D4B\u4E88\u201C\u589E\u751F\u201Dbuff\uFF0C\u6301\u7EED\u4E09\u56DE\u5408\u3002
+        \u201C\u589E\u751F\u201D\uFF1A\u6BCF\u56DE\u5408\u6062\u590D30%\u6700\u5927\u751F\u547D\u503C\u3002"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    uniqueSkill:
+      skillName: "\u8FF7\u60D8\u71C3\u70EC"
+      isUnlock: 1
+      needSelect: 1
+      isBattleStartCommand: 0
+      skillDescription: "\u5BF9\u5355\u4F53\u9020\u6210500%\u653B\u51FB\u529B\u7684\u4F24\u5BB3\uFF0C\u5E76\u4E3A\u5BF9\u65B9\u8D4B\u4E88\u201C\u71C3\u70EC\u201DBuff\uFF08\u6301\u7EED\u4E94\u56DE\u5408\uFF09"
+      selectType: 1
+      cameraLookAt: 0
+      selectCount: 1
+  - characterName: 1
+    unLocked: 1
+    inTeam: 0
+    damage: 1450
+    defend: 50
+    maxHp: 7200
+    damageRate: 1.2
+    hurtRate: 0.9
+    originalHatred: 100
+    originalBp: 0
+    speed: 72
+    teamSprite: {fileID: 21300000, guid: 23debd3a721221f4ab3f868ea38dd1e3, type: 3}
+    battlePortrait: {fileID: 21300000, guid: 2270fc87385274b4aa1608e6007dac58, type: 3}
+    battlePortraitName: {fileID: 0}
+    battleObjPrefab: {fileID: 5332722840127819992, guid: 485da1b682661d845b37c97f2215a3fb, type: 3}
+    skills:
+    - skillName: "no1 \u53CD\u51FB\u67B6\u52BF"
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 1
+      skillDescription: "\u5148\u5236\uFF1B\u56DE\u590D1\u70B9BP\uFF0C\u5E76\u4E3A\u81EA\u8EAB\u8D4B\u4E88\u201C\u53CD\u51FB\u67B6\u52BF\u201D\u72B6\u6001\uFF0C\u6301\u7EED\u4E00\u56DE\u5408
+        \u53CD\u51FB\u67B6\u52BF\uFF1A\u6536\u5230\u4F24\u5BB3\u65F6\u5BF9\u4F24\u5BB3\u6765\u6E90\u9020\u6210\u76F8\u5F53\u4E8E70%\u653B\u51FB\u529B\u7684\u4F24\u5BB3"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no2 \u63A9\u62A4"
+      isUnlock: 0
+      needSelect: 1
+      isBattleStartCommand: 0
+      skillDescription: "\u4E3A\u9664\u81EA\u8EAB\u5916\u5355\u4F53\u89D2\u8272\u8D4B\u4E88\u201C\u88AB\u63A9\u62A4\u201Dbuff\uFF0C\u6301\u7EED\u4E00\u56DE\u5408\u3002
+        \u201C\u88AB\u63A9\u62A4\u201D\uFF1A\u6301\u6709\u8BE5buff\u7684\u89D2\u8272\u53D7\u5230\u7684\u4F24\u5BB3\u5C06\u8F6C\u79FB\u7ED9\u7EF4\u514B\u591A\u3002 "
+      selectType: 3
+      cameraLookAt: 1
+      selectCount: 0
+    - skillName: "no3\u707C\u70E7\u5370\u8BB0"
+      isUnlock: 0
+      needSelect: 1
+      isBattleStartCommand: 0
+      skillDescription: "\u5BF9\u5355\u4F53\u89D2\u8272\u9020\u6210\u653B\u51FB\u529B150%\u7684\u4F24\u5BB3
+        \u5E76\u63D0\u9AD8\u81EA\u8EAB\u7684\u4EC7\u6068\u503C"
+      selectType: 1
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no4\u4E0D\u6B7B\u82B1"
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: "\u4E3A\u81EA\u8EAB\u8D4B\u4E88\u201C\u589E\u751F\u201D\u4E0E\u201C\u8FD4\u751F\u201Dbuff
+        \u201C\u589E\u751F\u201D\uFF1A\u6BCF\u56DE\u5408\u6062\u590D30%\u6700\u5927\u751F\u547D\u503C\u3002\uFF08\u6301\u7EED\u4E09\u56DE\u5408\uFF09
+        \u201C\u8FD4\u751F\u201D\uFF1A\u88AB\u51FB\u5012\u4E0D\u81F4\u6B7B\uFF0C\u4FDD\u7559\u4E00\u70B9\u4F53\u529B\uFF08\u6301\u7EED\u4E94\u56DE\u5408\uFF09\uFF08\u4E00\u6B21\uFF09"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no5\u7EDD\u5883\u7684\u706B\u7130"
+      isUnlock: 0
+      needSelect: 1
+      isBattleStartCommand: 0
+      skillDescription: "\u7EF4\u514B\u591A\u6839\u636E\u5269\u4F59\u4F53\u529B\u7684\u6BD4\u4F8B\u5BF9\u654C\u65B9\u5355\u4F53\u9020\u6210\u4E00\u5B9A\u500D\u7387\u7684\u4F24\u5BB3\u3002\u4F53\u529B\u6BD4\u4F8B\u8D8A\u4F4E\uFF0C\u4F24\u5BB3\u500D\u7387\u8D8A\u9AD8\uFF0850%-300%\uFF09"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no6\u7EFD\u653E"
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: "\u56DE\u590D\u6211\u65B9\u5168\u4F53\u89D2\u8272\u76F8\u5F53\u4E8E\u81EA\u8EAB\u6700\u5927HP70%\u7684HP\uFF0C\u5E76
+        \u8D4B\u4E88\u201C\u589E\u751F\u201Dbuff\uFF0C\u6301\u7EED\u4E09\u56DE\u5408\u3002
+        \u201C\u589E\u751F\u201D\uFF1A\u6BCF\u56DE\u5408\u6062\u590D30%\u6700\u5927\u751F\u547D\u503C\u3002"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    uniqueSkill:
+      skillName: 
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: 
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+  - characterName: 2
+    unLocked: 1
+    inTeam: 0
+    damage: 1450
+    defend: 50
+    maxHp: 7200
+    damageRate: 1.2
+    hurtRate: 0.9
+    originalHatred: 100
+    originalBp: 0
+    speed: 72
+    teamSprite: {fileID: 21300000, guid: d55b7a298324fb64d85d35351732f9ef, type: 3}
+    battlePortrait: {fileID: 21300000, guid: 2270fc87385274b4aa1608e6007dac58, type: 3}
+    battlePortraitName: {fileID: 0}
+    battleObjPrefab: {fileID: 5332722840127819992, guid: 485da1b682661d845b37c97f2215a3fb, type: 3}
+    skills:
+    - skillName: "no1 \u53CD\u51FB\u67B6\u52BF"
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 1
+      skillDescription: "\u5148\u5236\uFF1B\u56DE\u590D1\u70B9BP\uFF0C\u5E76\u4E3A\u81EA\u8EAB\u8D4B\u4E88\u201C\u53CD\u51FB\u67B6\u52BF\u201D\u72B6\u6001\uFF0C\u6301\u7EED\u4E00\u56DE\u5408
+        \u53CD\u51FB\u67B6\u52BF\uFF1A\u6536\u5230\u4F24\u5BB3\u65F6\u5BF9\u4F24\u5BB3\u6765\u6E90\u9020\u6210\u76F8\u5F53\u4E8E70%\u653B\u51FB\u529B\u7684\u4F24\u5BB3"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no2 \u63A9\u62A4"
+      isUnlock: 0
+      needSelect: 1
+      isBattleStartCommand: 0
+      skillDescription: "\u4E3A\u9664\u81EA\u8EAB\u5916\u5355\u4F53\u89D2\u8272\u8D4B\u4E88\u201C\u88AB\u63A9\u62A4\u201Dbuff\uFF0C\u6301\u7EED\u4E00\u56DE\u5408\u3002
+        \u201C\u88AB\u63A9\u62A4\u201D\uFF1A\u6301\u6709\u8BE5buff\u7684\u89D2\u8272\u53D7\u5230\u7684\u4F24\u5BB3\u5C06\u8F6C\u79FB\u7ED9\u7EF4\u514B\u591A\u3002 "
+      selectType: 3
+      cameraLookAt: 1
+      selectCount: 0
+    - skillName: "no3\u707C\u70E7\u5370\u8BB0"
+      isUnlock: 0
+      needSelect: 1
+      isBattleStartCommand: 0
+      skillDescription: "\u5BF9\u5355\u4F53\u89D2\u8272\u9020\u6210\u653B\u51FB\u529B150%\u7684\u4F24\u5BB3
+        \u5E76\u63D0\u9AD8\u81EA\u8EAB\u7684\u4EC7\u6068\u503C"
+      selectType: 1
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no4\u4E0D\u6B7B\u82B1"
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: "\u4E3A\u81EA\u8EAB\u8D4B\u4E88\u201C\u589E\u751F\u201D\u4E0E\u201C\u8FD4\u751F\u201Dbuff
+        \u201C\u589E\u751F\u201D\uFF1A\u6BCF\u56DE\u5408\u6062\u590D30%\u6700\u5927\u751F\u547D\u503C\u3002\uFF08\u6301\u7EED\u4E09\u56DE\u5408\uFF09
+        \u201C\u8FD4\u751F\u201D\uFF1A\u88AB\u51FB\u5012\u4E0D\u81F4\u6B7B\uFF0C\u4FDD\u7559\u4E00\u70B9\u4F53\u529B\uFF08\u6301\u7EED\u4E94\u56DE\u5408\uFF09\uFF08\u4E00\u6B21\uFF09"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no5\u7EDD\u5883\u7684\u706B\u7130"
+      isUnlock: 0
+      needSelect: 1
+      isBattleStartCommand: 0
+      skillDescription: "\u7EF4\u514B\u591A\u6839\u636E\u5269\u4F59\u4F53\u529B\u7684\u6BD4\u4F8B\u5BF9\u654C\u65B9\u5355\u4F53\u9020\u6210\u4E00\u5B9A\u500D\u7387\u7684\u4F24\u5BB3\u3002\u4F53\u529B\u6BD4\u4F8B\u8D8A\u4F4E\uFF0C\u4F24\u5BB3\u500D\u7387\u8D8A\u9AD8\uFF0850%-300%\uFF09"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    - skillName: "no6\u7EFD\u653E"
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: "\u56DE\u590D\u6211\u65B9\u5168\u4F53\u89D2\u8272\u76F8\u5F53\u4E8E\u81EA\u8EAB\u6700\u5927HP70%\u7684HP\uFF0C\u5E76
+        \u8D4B\u4E88\u201C\u589E\u751F\u201Dbuff\uFF0C\u6301\u7EED\u4E09\u56DE\u5408\u3002
+        \u201C\u589E\u751F\u201D\uFF1A\u6BCF\u56DE\u5408\u6062\u590D30%\u6700\u5927\u751F\u547D\u503C\u3002"
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+    uniqueSkill:
+      skillName: 
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: 
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+  - characterName: 3
+    unLocked: 1
+    inTeam: 0
+    damage: 1450
+    defend: 50
+    maxHp: 7200
+    damageRate: 1.2
+    hurtRate: 0.9
+    originalHatred: 100
+    originalBp: 0
+    speed: 72
+    teamSprite: {fileID: 21300000, guid: e43f339b90588314cbd62f89dfba353d, type: 3}
+    battlePortrait: {fileID: 21300000, guid: 2270fc87385274b4aa1608e6007dac58, type: 3}
+    battlePortraitName: {fileID: 0}
+    battleObjPrefab: {fileID: 5332722840127819992, guid: 485da1b682661d845b37c97f2215a3fb, type: 3}
+    skills: []
+    uniqueSkill:
+      skillName: 
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: 
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+  - characterName: 4
+    unLocked: 1
+    inTeam: 0
+    damage: 1450
+    defend: 50
+    maxHp: 7200
+    damageRate: 1.2
+    hurtRate: 0.9
+    originalHatred: 100
+    originalBp: 0
+    speed: 72
+    teamSprite: {fileID: 21300000, guid: c10491db86db5ea42b3ea243b696d612, type: 3}
+    battlePortrait: {fileID: 21300000, guid: 2270fc87385274b4aa1608e6007dac58, type: 3}
+    battlePortraitName: {fileID: 0}
+    battleObjPrefab: {fileID: 5332722840127819992, guid: 485da1b682661d845b37c97f2215a3fb, type: 3}
+    skills: []
+    uniqueSkill:
+      skillName: 
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: 
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+  - characterName: 5
+    unLocked: 1
+    inTeam: 0
+    damage: 1450
+    defend: 50
+    maxHp: 7200
+    damageRate: 1.2
+    hurtRate: 0.9
+    originalHatred: 100
+    originalBp: 0
+    speed: 72
+    teamSprite: {fileID: 21300000, guid: abd2dcf7b89aef24eab095b37a76c6de, type: 3}
+    battlePortrait: {fileID: 21300000, guid: 2270fc87385274b4aa1608e6007dac58, type: 3}
+    battlePortraitName: {fileID: 0}
+    battleObjPrefab: {fileID: 5332722840127819992, guid: 485da1b682661d845b37c97f2215a3fb, type: 3}
+    skills: []
+    uniqueSkill:
+      skillName: 
+      isUnlock: 0
+      needSelect: 0
+      isBattleStartCommand: 0
+      skillDescription: 
+      selectType: 0
+      cameraLookAt: 0
+      selectCount: 0
+  teamIndexList: 0100000000000000ffffffffffffffff
